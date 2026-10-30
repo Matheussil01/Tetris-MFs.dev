@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tetris-MFs.dev</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="app">
+  <h1>TETRIS<span>MFs.dev</span></h1>
+  <div id="game">
+    <div id="stage">
+      <canvas id="board" aria-label="Tabuleiro do Tetris"></canvas>
+      <div id="ov">
+        <h2 id="ot">TETRIS</h2>
+        <p id="op">Empilhe os blocos e limpe as linhas</p>
+        <button id="go">JOGAR</button>
+      </div>
+    </div>
+    <aside>
+      <section class="box"><h3>GUARDADA</h3><canvas id="hold" width="110" height="72"></canvas></section>
+      <section class="box"><h3>PRÓXIMAS</h3><canvas id="next" width="110" height="132"></canvas></section>
+      <section class="box stats">
+        <h3>PONTOS</h3><b id="s">0</b>
+        <h3>NÍVEL</h3><b id="lv">1</b>
+        <h3>LINHAS</h3><b id="ln">0</b>
+        <h3>RECORDE</h3><b id="hs">0</b>
+      </section>
+    </aside>
+  </div>
+  <div id="pad">
+    <button data-a="hold" aria-label="Guardar peça">GUARDAR</button>
+    <button data-a="rot" aria-label="Girar">⟳</button>
+    <button data-a="drop" aria-label="Cair">⤓</button>
+    <button data-a="left" aria-label="Esquerda">◀</button>
+    <button data-a="soft" aria-label="Descer">▼</button>
+    <button data-a="right" aria-label="Direita">▶</button>
+  </div>
+  <p id="keys">← → mover · ↑ girar · ↓ descer · espaço cai · C guarda · P pausa</p>
+</main>
+<script src="game.js"></script>
+</body>
+</html>

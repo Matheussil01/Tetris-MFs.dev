@@ -1,43 +1,122 @@
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=210&section=header&text=Tetris&fontSize=55&fontColor=FFFFFF&fontAlignY=42&color=E10600&animation=fadeIn" alt="Banner Tetris" />
 
-  <strong>Projeto de jogo Tetris para navegador.</strong>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=TETRIS&fontSize=65&fontColor=FFFFFF&fontAlignY=42&color=E10600&animation=fadeIn" alt="Tetris Banner" />
 
-  <br><br>
+### Tetris Game
 
-  <a href="https://mfs-dev.netlify.app/">
-    <img src="https://img.shields.io/badge/MEU_PORTFÓLIO-181818?style=for-the-badge&logo=vercel&logoColor=white" alt="Meu portfólio" />
-  </a>
-  <a href="https://github.com/Matheussil01">
-    <img src="https://img.shields.io/badge/MEU_GITHUB-E10600?style=for-the-badge&logo=github&logoColor=white" alt="Meu GitHub" />
-  </a>
+**Um projeto de desenvolvimento de jogos com foco em lógica de programação e interação.**
+
+<br>
+
+<a href="https://github.com/Matheussil01">
+  <img src="https://img.shields.io/badge/GITHUB-E10600?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="https://beamish-sunburst-22bd89.netlify.app/">
+  <img src="https://img.shields.io/badge/MEU_PORTFÓLIO-181818?style=for-the-badge&logo=googlechrome&logoColor=white" />
+</a>
+
 </div>
+
+---
 
 ## Sobre o projeto
 
-Este repositório reúne um projeto de jogo **Tetris**, voltado à prática de lógica de programação e desenvolvimento de jogos.
+O **Tetris** é um projeto inspirado no clássico jogo de encaixar blocos, desenvolvido para colocar em prática conceitos de programação, organização de código e desenvolvimento de jogos.
 
-## Objetivo do jogo
+O objetivo é organizar as peças que caem para formar linhas completas e acumular pontos.
 
-Organizar as peças que caem para completar linhas horizontais e liberar espaço no tabuleiro.
+---
 
-## Tecnologias e implementação
-
-Consulte os arquivos-fonte do repositório para ver as tecnologias utilizadas e a organização da implementação.
-
-## Como executar
-
-Abra as instruções do projeto no repositório e siga o procedimento indicado para executar o jogo.
-
-## Autor
-
-Desenvolvido por **Matheus Faustino**.
-
-- [GitHub](https://github.com/Matheussil01)
-- [Portfólio](https://mfs-dev.netlify.app/)
-- [LinkedIn](https://www.linkedin.com/in/matheussil01/)
+## Tecnologias utilizadas
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=E10600" alt="Rodapé vermelho" />
+
+<img src="https://skillicons.dev/icons?i=html,css,js,vscode,git,github&theme=dark" alt="Tecnologias e ferramentas" />
+
+</div>
+
+### Linguagens
+
+| Tecnologia | Utilização |
+|:---|:---|
+| **HTML5** | Estrutura da interface do jogo |
+| **CSS3** | Estilização, cores e organização visual |
+| **JavaScript** | Lógica de programação e interatividade |
+
+### Ferramentas de desenvolvimento
+
+| Ferramenta | Finalidade |
+|:---|:---|
+| **Visual Studio Code** | Editor de código |
+| **Git** | Controle de versões |
+| **GitHub** | Hospedagem e gerenciamento do repositório |
+
+> **Observação:** tecnologias e ferramentas listadas provisoriamente, até a verificação do código original.
+
+---
+
+## Funcionalidades do jogo
+
+- Movimentação das peças pelo tabuleiro.
+- Rotação e posicionamento dos blocos.
+- Identificação de linhas completas.
+- Limpeza de linhas preenchidas.
+- Sistema de pontuação.
+- Detecção de fim de jogo.
+
+---
+
+## Conceitos praticados
+
+Durante o desenvolvimento de um jogo como Tetris, são trabalhados conceitos como:
+
+- Lógica de programação.
+- Estruturas condicionais e de repetição.
+- Manipulação de eventos.
+- Matrizes e coordenadas.
+- Detecção de colisões.
+- Controle dos estados do jogo.
+
+---
+
+## Como jogar
+
+O objetivo é organizar os blocos que descem pelo tabuleiro, formando linhas horizontais completas.
+
+Quando uma linha é preenchida, ela desaparece e libera espaço para novas peças.
+
+O jogo termina quando os blocos atingem o limite superior do tabuleiro.
+
+---
+
+## Objetivo do projeto
+
+Este projeto faz parte da minha evolução como desenvolvedor, permitindo aprofundar conhecimentos em lógica de programação e desenvolvimento de aplicações interativas.
+
+A criação de jogos é uma forma de praticar resolução de problemas e aplicar conceitos fundamentais da programação.
+
+---
+
+## Desenvolvedor
+
+<div align="center">
+
+**Matheus Faustino**
+
+Desenvolvedor Front-end | Estudante de Ciência da Computação
+
+<br>
+
+<a href="https://github.com/Matheussil01">
+  <img src="https://img.shields.io/badge/GitHub-E10600?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="https://beamish-sunburst-22bd89.netlify.app/">
+  <img src="https://img.shields.io/badge/Portfólio-181818?style=for-the-badge&logo=googlechrome&logoColor=white" />
+</a>
+
+<br><br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=E10600" alt="Footer" />
+
 </div>
